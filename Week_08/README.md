@@ -149,7 +149,8 @@ def countSort(arr):
 ```
 
 - 9桶排序
-import random
+```python
+
 class bucketSort(object):
     def _max(self,oldlist):
         _max=oldlist[0]
@@ -180,6 +181,7 @@ class bucketSort(object):
     def __call__(self,oldlist):
         self.sort(oldlist)
         return oldlist
+```
 
 - 10基数排序
 ```python
